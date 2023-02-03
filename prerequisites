@@ -1,2 +1,5 @@
+"package_updates_check.py"
+<script src="https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70.js"></script>
+
 "sysstat for iostat"
 sudo apt install sysstat
