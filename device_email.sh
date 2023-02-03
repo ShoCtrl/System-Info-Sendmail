@@ -6,7 +6,7 @@ then
 fi
 
 echo '====================================================================================================' >> output.txt
-echo `/home/shoctrl/bin/os-tool.py >> output.txt`
+echo `<os_tool_path >> output.txt`
 echo `landscape-sysinfo >> output.txt`
 echo '====================================================================================================' >> output.txt
 echo 'Users Online:' >> output.txt
@@ -22,9 +22,9 @@ info=`cat output.txt`
 delimiter="`date +%Y%m%d%H%M%S`"
 newdate=$(TZ='America/Denver' date)
 
-from="docker.server.01@gmail.com"
-to="patrick.temple@protonmail.com"
-subject="System Info Update | Docker-Server-01"
+from="<smtp_email_address"
+to="<recipient_email_address"
+subject="email_subject"
 
 cat << EOF | sendmail -t
 From: $from
