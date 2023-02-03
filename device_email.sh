@@ -6,7 +6,7 @@ then
 fi
 
 echo '====================================================================================================' >> output.txt
-echo `<os_tool_path> >> output.txt`
+echo `<package_updates_check.py_path> >> output.txt`
 echo `landscape-sysinfo >> output.txt`
 echo '====================================================================================================' >> output.txt
 echo 'Users Online:' >> output.txt
