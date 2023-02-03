@@ -15,8 +15,7 @@ echo '==========================================================================
 echo `iostat -c | tail -n +3 >> output.txt`
 echo '====================================================================================================' >> output.txt
 
-sed -i '/^$/d' output.txt
-sed -e 's/$/ <br>/' -i output.txt
+sed -e '/^$/d' -e 's/$/ <br>/' -i output.txt
 
 info=`cat output.txt`
 # we need a delimiter, we can just as well use the TOD:
