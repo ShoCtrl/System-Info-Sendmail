@@ -1,6 +1,8 @@
 # System-Info-Sendmail
 
-prerequisites/dependencies:
+I have a crontad entry for this script to run a few times a day to monitor my docker server.
+
+**prerequisites/dependencies:**
 
 1. Python Script Link
 [package_updates_check.py](https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70)
