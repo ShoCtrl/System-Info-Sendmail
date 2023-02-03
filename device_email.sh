@@ -6,7 +6,7 @@ then
 fi
 
 echo '====================================================================================================' >> output.txt
-echo `<os_tool_path >> output.txt`
+echo `<os_tool_path> >> output.txt`
 echo `landscape-sysinfo >> output.txt`
 echo '====================================================================================================' >> output.txt
 echo 'Users Online:' >> output.txt
@@ -22,9 +22,9 @@ info=`cat output.txt`
 delimiter="`date +%Y%m%d%H%M%S`"
 newdate=$(TZ='America/Denver' date)
 
-from="<smtp_email_address"
-to="<recipient_email_address"
-subject="email_subject"
+from="<smtp_email_address>"
+to="<recipient_email_address>"
+subject="<email_subject>"
 
 cat << EOF | sendmail -t
 From: $from
