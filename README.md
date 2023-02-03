@@ -10,7 +10,7 @@ sysstat for iostat
 sudo apt install sysstat
 ```
 
-Example:
+Email Example:
 ```text
 Current Time:    Thu Feb 2 20:30:42 MST 2023 
 
@@ -36,19 +36,9 @@ No available updates on this machine.
 
   Users logged in:                  1 
 
-  IPv4 address for br-397dc586cf67: 172.21.0.1 
+  IPv4 address for eth0:            <ipv4_address>
 
-  IPv4 address for br-460160b1d1db: 172.22.0.1 
-
-  IPv4 address for br-aba775d75c8f: 172.19.0.1 
-
-  IPv4 address for docker0:         172.17.0.1 
-
-  IPv4 address for eth0:            172.16.0.30 
-
-  IPv6 address for eth0:            2601:282:4400:5d20::dd15 
-
-  IPv6 address for eth0:            2601:282:4400:5d20:dea6:32ff:fedc:2d6 
+  IPv6 address for eth0:            <ipv6_address>
 
 ==================================================================================================== 
 
@@ -56,7 +46,6 @@ Users Online:
 
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT 
 
-shoctrl  pts/0    172.16.0.251     19:49   10.00s  0.54s  0.00s /bin/sh /home/shoctrl/bin/device_email.sh 
 
 ==================================================================================================== 
 
