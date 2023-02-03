@@ -34,7 +34,7 @@ No available updates on this machine.
 
   Processes:                        303 
 
-  Users logged in:                  1 
+  Users logged in:                  0 
 
   IPv4 address for eth0:            <ipv4_address>
 
