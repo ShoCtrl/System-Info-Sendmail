@@ -18,9 +18,8 @@ echo '==========================================================================
 sed -e '/^$/d' -e 's/$/ <br>/' -i output.txt
 
 info=`cat output.txt`
-# we need a delimiter, we can just as well use the TOD:
 delimiter="`date +%Y%m%d%H%M%S`"
-newdate=$(TZ='America/Denver' date)
+newdate=$(TZ='<local_time-zone-ex:"America/Denver">' date)
 
 from="<smtp_email_address>"
 to="<recipient_email_address>"
